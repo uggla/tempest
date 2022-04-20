@@ -29,6 +29,8 @@
               - ^.mailmap$
         - tempest-extra-tests:
             irrelevant-files: *tempest-irrelevant-files
+        - tempest-compute-manila:
+            voting: false
         - glance-multistore-cinder-import:
             voting: false
             irrelevant-files: *tempest-irrelevant-files
